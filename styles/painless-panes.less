@@ -20,13 +20,19 @@
   }
 
   atom-pane-axis.vertical {
-    & > atom-pane, & > atom-pane-axis {
-      flex-basis: 13em;
-      flex-grow: 1 !important;
+    & > atom-pane-axis {
+      flex: 1 1 auto !important;
 
       &.painless-panes__active {
-        flex-basis: 50em;
-        flex-grow: 10 !important;
+        flex: 5 0.001 50em !important;
+      }
+    }
+
+    & > atom-pane {
+      flex: 1 1 13em !important;
+
+      &.painless-panes__active {
+        flex: 5 0.001 50em !important;
       }
     }
   }
