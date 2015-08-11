@@ -11,12 +11,10 @@
 
   atom-pane-axis.horizontal {
     & > atom-pane, & > atom-pane-axis {
-      flex-basis: 3ch;
-      flex-grow: 10 !important;
+      flex: 1 1 90ch !important;
 
       &.painless-panes__active {
-        flex-basis: 90ch;
-        flex-grow: 1 !important;
+        flex-shrink: 0.001 !important;
       }
     }
   }
