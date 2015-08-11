@@ -1,5 +1,5 @@
 # painless-panes package
 
-A short description of your package.
+Automatically manage the size of your panes, giving more room to the currently active pane.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![Painless Panes demo](https://cloud.githubusercontent.com/assets/8588/9201205/9e9a2dfe-4000-11e5-97b1-0f0c7cab5f13.gif)
