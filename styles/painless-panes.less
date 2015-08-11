@@ -1,0 +1,35 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.painless-panes__enabled {
+  atom-pane-resize-handle {
+    display: none;
+  }
+
+  atom-pane-axis.horizontal {
+    & > atom-pane, & > atom-pane-axis {
+      flex-basis: 3ch;
+      flex-grow: 10 !important;
+
+      &.painless-panes__active {
+        flex-basis: 90ch;
+        flex-grow: 1 !important;
+      }
+    }
+  }
+
+  atom-pane-axis.vertical {
+    & > atom-pane, & > atom-pane-axis {
+      flex-basis: 13em;
+      flex-grow: 1 !important;
+
+      &.painless-panes__active {
+        flex-basis: 50em;
+        flex-grow: 10 !important;
+      }
+    }
+  }
+}

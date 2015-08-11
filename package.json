@@ -1,0 +1,18 @@
+{
+  "name": "painless-panes",
+  "main": "./lib/painless-panes",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "painless-panes:toggle"
+  },
+  "repository": "https://github.com/aaronjensen/painless-panes",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
