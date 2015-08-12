@@ -4,8 +4,10 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "painless-panes:toggle"
+  "author": {
+    "name": "Aaron Jensen",
+    "email": "aaronjensen@gmail.com",
+    "url": "https://twitter.com/aaronjensen"
   },
   "repository": "https://github.com/aaronjensen/painless-panes",
   "license": "MIT",
