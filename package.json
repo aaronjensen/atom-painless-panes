@@ -9,7 +9,7 @@
     "email": "aaronjensen@gmail.com",
     "url": "https://twitter.com/aaronjensen"
   },
-  "repository": "https://github.com/aaronjensen/painless-panes",
+  "repository": "https://github.com/aaronjensen/atom-painless-panes",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
